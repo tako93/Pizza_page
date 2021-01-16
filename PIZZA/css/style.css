@@ -1,0 +1,93 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    background-color:rgb(34, 32, 32);
+    color: white;
+    font-family: 'Zilla Slab', serif;
+
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+     list-style: none;
+     text-align: center; 
+     padding: 0;
+     margin: 0;
+} 
+.menu .menu__item {
+    display: inline-block;
+}
+.menu .menu__link {
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+}
+.pizza-slices img {
+    width: 290px;
+    height: 380px;
+    display: inline-block;
+    border-radius: 10%;
+}
+.history {
+    width: 400px;
+    display: inline-block;
+    margin-left: 7%;   
+}
+.pizza-slices {
+    margin: 50px;
+    
+}
+.side {
+    float: right;
+    width: 250px;
+    border: solid 1px white;
+    box-shadow: 5px 5px 5px 5px turquoise;
+
+}
+.recipe {
+    display: inline-block;
+    border: solid 2px turquoise; 
+    width: 490px; 
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.about {
+    text-align: center;
+}
+.blog  article {
+    border: solid 2px  turquoise;
+    border-radius: 10%;
+    width: 1000px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 75px;
+
+}
+
+.redtxt img {
+    margin: 20px 150px 80px;
+    border-radius: 5%;
+    border: solid 5px red;
+    width: 600px;
+    height: 800px;
+    padding: 20px;
+}
+
+.redtxt {
+    text-align: center;
+}
+
+table {
+    margin: 20px 485px 80px;
+}
